@@ -1,0 +1,49 @@
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(255, 180, 205, 0.932), rgba(176, 160, 245, 0.966));
+}
+
+.box{
+    height: 500px;
+    text-align: center;
+}
+
+.box h2{
+    color: white;
+    font-size: 2rem;
+}
+
+#quote{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+button{
+    padding: 20px 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background: linear-gradient(45deg, rgba(125, 240, 205, 0.932), rgba(242, 25, 250, 0.966));
+}
