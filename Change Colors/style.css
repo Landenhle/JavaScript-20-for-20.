@@ -1,0 +1,20 @@
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(255, 180, 205, 0.9), rgba(175, 160, 245, 0.6));
+}
