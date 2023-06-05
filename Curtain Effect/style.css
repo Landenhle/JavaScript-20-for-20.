@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.box1, 
+.box2{
+    width: 50%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: rgb(58, 58, 212);
+    position: relative;
+    transition: all 0.35s;
+}
+
+.left{
+    transform: translateX(-100%);
+}
+
+.right{
+    transform: translateX(100%);
+}
+
+
+.menu-box{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.line-top,
+.line-middle,
+.line-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: white;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.line-middle {
+  transform: translateY(7px);
+}
+
+.line-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .line-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .line-middle {
+  display: none;
+}
+
+.open .line-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.none{
+    display: none;
+}
+
+.places{
+    position: fixed;
+    top: 50%;
+    transform: rotate(-90deg);
+}
+
+.places2{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: rotate(90deg);
+}
+
+.locations{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
